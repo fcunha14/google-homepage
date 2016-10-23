@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+nav#topo {
+	text-align: right;
+	padding: 0 30px;
+}
+
+nav#topo ul li {
+    display: inline;
+    margin: 0 0 0 0;
+}
+
+img#image {
+	height: 24px;
+	width: 24px; 
+	padding: 20px 10px 0 0;
+	margin: 0;
+	opacity: 0.9;
+}
+
+img#image:hover {
+	filter: contrast(900%);
+}
+
+
+nav#topo ul li a#sign:link,
+nav#topo ul li a#sign:visited {
+	background-color: #4683ea;
+	color: #fff;
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	padding: 6px 12px 7px 12px;
+}
+
+nav#topo ul li a#sign:hover {
+	text-decoration: none;
+}
+
+nav#topo ul li a:link,
+nav#topo ul li a:visited {
+	color: #666;
+	text-decoration: none;
+	padding: 0 5px 0 5px;
+}
+
+nav#topo ul li a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	display: block;
+	text-align: center;
+	margin: 140px;
+}
+
+img {
+	height: 95px;
+	width: 269px;
+	padding: 23px;
+}
+
+input[type="text"] {
+	width: 560px;
+	height: 18px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid  #d9d9d9;
+	font-size: 18px;
+	text-align: left;
+	padding: 10px;
+}
+
+input[type="text"]:hover{
+	border: 1px solid #b3b3b3;
+}
+
+input[type="text"]:focus,
+input[type="text"]:active {
+	border: 1px solid #0000FF;
+}
+
+input[type="submit"] {
+	padding: 11px 14px 11px 14px;
+	margin: 30px 2px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #757575;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: #262626;
+	background-color: rgb(246, 246, 246);
+}
+
+nav#bot {
+	background: #f2f2f2;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	border: 1px solid #d9d9d9;
+	padding: 11px;
+}
+
+nav#bot ul li {
+	display: inline;
+	float: left;
+}
+
+nav#bot ul#bot_right li {
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+nav#bot ul#bot_left li a {
+	padding: 15px;
+}
+
+nav#bot ul#bot_left {
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+nav#bot ul#bot_right {
+	margin-right: 20px; 
+	margin-bottom: 2px;
+}
+
+nav#bot ul#bot_right li a {
+	padding: 7px;
+}
+
+nav#bot ul#bot_right li a:link,
+nav#bot ul#bot_right li a:visited,
+nav#bot ul#bot_left li a:link,
+nav#bot ul#bot_left li a:visited {
+	color: #666;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+}
+
+nav#bot ul#bot_right li a:hover,
+nav#bot ul#bot_left li a:hover {
+	text-decoration: underline;
+}
